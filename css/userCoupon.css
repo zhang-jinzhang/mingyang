@@ -1,0 +1,21 @@
+.flex-box {
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-pack: justify;
+  /*Firefox*/
+  -webkit-box-pack: justify;
+  /*Safari,Opera,Chrome*/
+  box-pack: justify;
+  text-align: center;
+  height: 1.46rem;
+}
+.flex-box p {
+  -webkit-box-flex: 1;
+  color: #666;
+  font-size: 0.37rem;
+  line-height: 1.46rem;
+}
+.flex-box p:first-of-type {
+  color: #cc0000;
+}

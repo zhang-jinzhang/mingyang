@@ -1,0 +1,116 @@
+html {
+  background: #ccc;
+}
+.head {
+  height: 1.33rem;
+  padding: 0.32rem 0.52rem 0.32rem 0.26rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.head span {
+  margin-left: 0.26rem;
+  color: #333;
+  font-size: 0.42rem;
+  line-height: 1.33rem;
+}
+.head img {
+  width: 1.33rem;
+  height: 1.33rem;
+  border-radius: 100%;
+}
+.head i {
+  width: 0.21rem;
+  height: 1.33rem;
+  background: url(../images/icon/back.png) center center no-repeat;
+  background-size: 0.21rem 0.37rem;
+  margin-left: 0.26rem;
+}
+.content-box {
+  background: #fff;
+  line-height: 1.52rem;
+}
+.content-box i {
+  width: 0.21rem;
+  height: 0.9rem;
+  background: url(../images/icon/back.png) center center no-repeat;
+  background-size: 0.21rem 0.37rem;
+  margin-left: 0.26rem;
+}
+.content-box span {
+  color: #333;
+  font-size: 0.42rem;
+  width: 2.37rem;
+  line-height: 0.93rem;
+}
+.content-box .sex {
+  height: 0.9rem;
+  border-bottom: 1px solid #ccc;
+  padding: 0.32rem 0.52rem;
+}
+.content-box .phone,
+.content-box .name,
+.content-box .wechat,
+.content-box .vertify {
+  height: 0.9rem;
+  padding: 0.32rem 0.52rem;
+  border-bottom: 1px solid #ccc;
+}
+.content-box .phone input,
+.content-box .name input,
+.content-box .wechat input,
+.content-box .vertify input {
+  width: 5.8rem;
+  height: 0.9rem;
+  border: none;
+  color: #333;
+  font-size: 0.42rem;
+}
+.content-box .vertify a {
+  display: block;
+  color: #cccccc;
+  line-height: 0.93rem;
+  font-size: 0.42rem;
+  width: 5.8rem;
+}
+.content-box .position {
+  height: 0.9rem;
+  padding: 0.32rem 0.52rem;
+  border-bottom: 1px solid #ccc;
+}
+.content-box .position span {
+  color: #333;
+  font-size: 0.42rem;
+  width: 2.37rem;
+  line-height: 0.93rem;
+}
+.content-box .position select {
+  width: 5.8rem;
+  height: 0.9rem;
+  border: none;
+  color: #333;
+  font-size: 0.42rem;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+}
+.content-box .position select option {
+  color: #0099ff;
+}
+.content-box .position select::-ms-expand {
+  display: none;
+}
+.footer {
+  margin-top: 0.88rem;
+}
+.footer input {
+  display: block;
+  width: 4.66rem;
+  height: 1.2rem;
+  background: #cc0000;
+  font-size: 0.48rem;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  border: none;
+}

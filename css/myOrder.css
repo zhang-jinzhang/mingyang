@@ -1,0 +1,93 @@
+html {
+  background: #f2f2f2;
+}
+.shop-info {
+  background: #fff;
+  padding: 0.21rem 0.26rem;
+}
+.shop-info img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.13rem;
+  margin-right: 0.14rem;
+}
+.shop-info span {
+  vertical-align: middle;
+  line-height: 0.8rem;
+  font-size: 0.37rem;
+  color: #666;
+}
+.shop-info i {
+  font-style: normal;
+  color: #ff9900;
+  font-size: 0.37rem;
+  line-height: 0.8rem;
+}
+.order-info {
+  padding: 0.13rem 0.26rem;
+  border-bottom: 2px solid #fff;
+}
+.order-info img {
+  width: 1.86rem;
+  height: 1.86rem;
+  margin-right: 0.24rem;
+}
+.order-info .wrap-box {
+  width: 7.36rem;
+}
+.order-info .wrap-box span.value {
+  color: #333;
+  font-size: 0.37rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+}
+.order-info .wrap-box span.service-kind {
+  color: #333;
+  font-size: 0.37rem;
+  line-height: 0.72rem;
+}
+.order-info span.num {
+  color: #333;
+  height: 0.53rem;
+  line-height: 0.53rem;
+  font-size: 0.37rem;
+  margin-top: 0.61rem;
+}
+.total {
+  height: 1.17rem;
+  line-height: 1.17rem;
+  padding: 0 0.26rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.total span.time {
+  font-size: 0.34rem;
+  color: #666;
+}
+.total span.sum {
+  color: #333;
+  font-size: 0.37rem;
+}
+.operate {
+  padding: 0.26rem;
+  background: #fff;
+  margin-bottom: 0.26rem;
+}
+.operate button {
+  padding: 0.21rem 0.34rem;
+  border-radius: 0.08rem;
+  background: #fff;
+}
+.operate button.del {
+  border: 1px solid #ccc;
+  font-size: 0.37rem;
+  color: #999;
+}
+.operate button.cancel {
+  border: 1px solid #ff9900;
+  font-size: 0.37rem;
+  color: #ff9900;
+  margin: 0 0.02rem 0 0.13rem;
+}

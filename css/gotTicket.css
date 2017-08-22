@@ -1,0 +1,122 @@
+html {
+  background: #f2f2f2;
+}
+.header {
+  padding: 0.35rem 0 0.26rem 0;
+  background: #fff;
+}
+.header a.logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.26rem;
+}
+.header a.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.13rem;
+}
+.header .shop-detail {
+  width: 7.2rem;
+  margin-left: 0.26rem;
+}
+.header .shop-detail h2 {
+  color: #cc0000;
+  font-size: 0.46rem;
+  line-height: 0.5rem;
+  margin-bottom: 0.22rem;
+}
+.header .shop-detail p {
+  font-size: 0.32rem;
+  color: #666666;
+  line-height: 0.45rem;
+}
+.header .shop-detail p span {
+  font-size: 0.32rem;
+  color: #666666;
+}
+.header .shop-detail p span.person-value {
+  margin-left: 0.4rem;
+}
+.states {
+  margin: 0.26rem 0;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.states h2 {
+  font-size: 0.48rem;
+  color: #333333;
+  text-align: center;
+  line-height: 0.53rem;
+  padding-top: 0.26rem;
+}
+.states .states-detail {
+  margin-top: 0.66rem;
+  height: 1.36rem;
+  padding-bottom: 0.93rem;
+}
+.states .states-detail div {
+  width: 4rem;
+  display: inline-block;
+  background: #cc0000;
+  border-radius: 0.26rem;
+  text-align: center;
+}
+.states .states-detail div p:nth-of-type(1) {
+  height: 0.68rem;
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 0.78rem;
+}
+.states .states-detail div p:nth-of-type(2) {
+  height: 0.68rem;
+  color: #fff;
+  font-size: 0.48rem;
+  line-height: 0.68rem;
+}
+.states .states-detail div:nth-of-type(1) {
+  margin: 0 0.96rem 0 0.5rem;
+}
+.gotTicket {
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0.48rem;
+  color: #333;
+  text-align: center;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+.tickNum {
+  font-size: 0.48rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #666;
+  background: #fff;
+}
+.pick {
+  line-height: 2.2rem;
+  text-align: center;
+  margin: 0 auto ;
+  border-radius: 0.2rem;
+  background: #fff;
+  padding: 0.6rem 0;
+}
+.pick a {
+  display: block;
+  width: 6.72rem;
+  height: 2.2rem;
+  margin: 0 auto ;
+  border-radius: 0.2rem;
+  color: #fff;
+  font-size: 0.9rem;
+  background: #9966cc;
+}
+.footer {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #666;
+  font-size: 0.32rem;
+  text-align: center;
+  background: #fff;
+}

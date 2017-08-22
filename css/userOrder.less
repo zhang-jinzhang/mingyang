@@ -1,0 +1,207 @@
+html{
+    background:#f2f2f2;
+}
+.header {
+  padding:0.35rem 0 0.26rem 0;
+  background:#fff;
+  margin-bottom:0.26rem;
+}
+.header a.logo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.13rem;
+  background: #ccc;
+  margin-left: 0.26rem;
+}
+.header a.logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .shop-detail {
+  position: relative;
+  width: 5.6rem;
+  margin-left: 0.26rem;
+  padding-right: 0.13rem;
+}
+.header .shop-detail h2 {
+  color: #cc0000;
+  font-size: 0.46rem;
+  line-height: 0.6rem;
+}
+.header .shop-detail p {
+  font-size: 0.32rem;
+  color: #666666;
+  line-height: 0.45rem;
+}
+.header .shop-detail::after{
+    position: absolute;
+    top:0.33rem;
+    right:0;
+    content: '';
+    width:1px;
+    height:1.25rem;
+    background:#ccc;
+}
+.header .call{
+    width: 1.72rem;
+    height: 100%;
+}
+.header .call a{
+    display: block;
+    width: 1.52rem;
+    height:2rem;
+    background:url(../images/icon/phone.png) center center no-repeat;
+    background-size:0.85rem 0.85rem;
+}
+.price{
+     padding-left:0.3rem; 
+     background:#fff;
+    h3{
+       color:#333;
+       font-size: 0.42rem;
+       height:0.93rem;
+       line-height: 0.93rem;
+    }
+    span{
+        font-size:0.48rem;
+        color:#fff;
+        width: 2.93rem;
+        background: #ccc;
+        height: 1.12rem;
+        line-height: 1.12rem;
+        text-align: center;
+        border-radius: 0.26rem;
+        margin:0.32rem 0.3rem 0 0;
+        &.selected{
+           background: #cc0000; 
+        }
+        i{  
+            font-style: normal;
+            display: block;
+            width:100%;
+            font-size: 0.38rem;
+            color:#fff; 
+            &:nth-of-type(1){
+                line-height:0.68rem ;
+            }
+             &:nth-of-type(2){
+                line-height:0.36rem ;
+            }
+        }
+    }
+}
+.mar{
+    padding-top:0.26rem;
+}
+.down p{
+    width:100%;
+    height:0.8rem;
+    background:#fff url(../images/icon/down.png) center center no-repeat;
+    background-size:0.46rem 0.34rem;
+    margin-bottom:0.26rem;
+}
+.up p{
+    width:100%;
+    height:0.8rem;
+    background:#fff url(../images/icon/up.png) center center no-repeat;
+    background-size:0.46rem 0.34rem;
+    margin-bottom:0.26rem;
+}
+.num{
+    background:#fff;
+    padding-bottom: 0.26rem;
+    border-bottom: 1px solid #ccc;
+    h3{
+        font-size: 0.42rem;
+        color:#333;
+        height: 1.12rem;
+        line-height: 1.12rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .num-wrap{
+        width:5.36rem;
+        height:1.12rem;
+        margin:0 auto;
+        border:1px solid #999;
+        border-radius: 0.18rem;
+        button{
+            width: 1.33rem;
+            height: 1.12rem;
+            border:none;
+            &.cut{   
+background:url(../images/icon/cut.png) center no-repeat;
+                background-size:0.5rem 0.1rem;
+                border-top-right-radius:0;
+                border-bottom-right-radius:0;
+                border-right:1px solid #999;
+            }
+            &.add{
+          background:url(../images/icon/add.png) center no-repeat;
+                background-size:1.33rem 1.09rem;
+                border-left:none;
+                border-top-left-radius:0;
+                border-bottom-left-radius:0;
+                border-left:1px solid #999;
+            }
+        }
+        span{
+            width:2.66rem;
+            height:1.06rem;
+            line-height: 1.1rem;
+            color:#333;
+            font-size: 0.48rem;
+            text-align: center;
+        }
+    }
+    
+}
+.explain{
+    background: #fff;
+    padding:0.32rem;
+    .explain-box{
+        padding:0.3rem;
+        background: #f2f2f2;
+        h3{
+            font-size: 0.42rem;
+            color:#333;
+            line-height: 0.53rem;
+        }
+        p{
+            font-size: 0.34rem;
+            line-height:0.42rem;
+            color: #666;
+            &.question{
+                margin-top:0.4rem;
+            }
+        }
+    }
+}
+.help{
+    width: 100%;
+    height:1.33rem;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    div{
+        width: 50%;
+        height: 1.33rem;
+        line-height: 1.33rem;
+        text-align: center;
+        color:#fff;
+        font-size: 0.48rem;
+        &.total{
+            background:#ccc;
+        }
+        &.pay{
+            a{
+                display: block;
+                color:#fff;
+                font-size: 0.48rem;
+            }
+            background:#cc0000;
+        }
+    }
+}

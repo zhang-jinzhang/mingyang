@@ -1,0 +1,171 @@
+@charset "utf-8";
+.banner {
+  position: relative;
+  width: 10rem;
+  overflow: hidden;
+  background: #f2f2f2;
+}
+.banner .banner-list {
+  position: relative;
+  width: 46.66rem;
+  height: 4.69rem;
+}
+.banner .banner-list li {
+  width: 10rem;
+  height: 100%;
+}
+.banner .banner-list li img {
+  width: 10rem;
+  height: 4.69rem;
+}
+.banner .btn-list {
+  position: absolute;
+  left: 4.26rem;
+  bottom: 0.4rem;
+}
+.banner .btn-list li {
+  width: 0.26rem;
+  height: 0.26rem;
+  margin-right: 0.26rem;
+  background: #ccc;
+  border-radius: 100%;
+}
+.banner .btn-list li.current {
+  background: #fff;
+}
+.search {
+  color: #666;
+  padding: 0.36rem;
+}
+.search span {
+  float: left;
+  width: 0.84rem;
+  height: 0.65rem;
+  line-height: 0.55rem;
+  font-size: 0.37rem;
+  padding-top: 0.74rem;
+  background: url(../images/icon/position.png) center top no-repeat;
+  background-size: 0.64rem 0.74rem;
+  text-align: center;
+  margin-right: 0.36rem;
+}
+.search input[type="text"] {
+  float: left;
+  width: 5.33rem;
+  height: 1.19rem;
+  border-bottom-left-radius: 0.53rem;
+  border-top-left-radius: 0.53rem;
+  border: 1px solid #ccc;
+  border-right: none;
+  text-align: center;
+  font-size: 0.37rem ;
+}
+.search input[type="submit"] {
+  float: left;
+  width: 2.66rem;
+  height: 1.26rem;
+  border-bottom-right-radius: 0.45rem;
+  border-top-right-radius: 0.45rem;
+  background: #ff9900;
+  border-left: none;
+  border: 1px solid #ff9900;
+  font-size: 0.42rem;
+  color: #fff;
+}
+.shop {
+  height: 0.66rem;
+  line-height: 0.66rem;
+  font-size: 0.34rem;
+  background: #f2f2f2;
+  color: #999;
+  padding-left: 0.26rem;
+}
+.short-distance li {
+  border-bottom: 1px solid #ccc;
+  padding: 0.26rem 0;
+}
+.short-distance .logo {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.26rem;
+}
+.short-distance .logo img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.13rem;
+}
+.short-distance .logo a.checking {
+  position: absolute;
+  width: 1.33rem;
+  height: 0.53rem;
+  line-height: 0.53rem;
+  right: 0.3rem;
+  bottom: -0.17rem;
+  border-radius: 0.1rem;
+  background: #0099ff;
+  color: #fff;
+  font-size: 0.26rem;
+  text-align: center;
+}
+.short-distance .logo span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.4rem;
+  text-align: center;
+  background: url(../images/recommend.png) no-repeat;
+  background-size: 100% auto;
+  color: #fff;
+}
+.short-distance .shop-detail {
+  width: 7.2rem;
+  margin-left: 0.26rem;
+}
+.short-distance .shop-detail h2 {
+  color: #333;
+  font-size: 0.46rem;
+  line-height: 0.6rem;
+  margin-bottom: 0.1rem;
+}
+.short-distance .shop-detail h2 span {
+  float: right;
+  font-size: 0.4rem;
+  color: #666666;
+}
+.short-distance .shop-detail p {
+  font-size: 0.32rem;
+  color: #666666;
+  line-height: 0.45rem;
+}
+.short-distance .shop-detail p span {
+  font-size: 0.32rem;
+  color: #666666;
+}
+.short-distance .shop-detail p span.person-value {
+  margin-left: 0.4rem;
+}
+.warning {
+  font-size: 0.29rem;
+  color: #999;
+  text-align: center;
+  height: 0.93rem;
+  line-height: 0.93rem;
+}
+.help {
+  height: 1.7rem;
+}
+.footer a {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.3rem;
+  background: #cc0000;
+  color: #fff;
+  font-size: 0.32rem;
+  text-align: center;
+  line-height: 0.53rem;
+  padding-top: 0.2rem;
+}

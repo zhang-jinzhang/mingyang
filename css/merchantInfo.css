@@ -1,0 +1,172 @@
+html {
+  background: #f2f2f2;
+}
+.header {
+  padding: 0.35rem 0 0.26rem 0;
+  background: #fff;
+}
+.header a.logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.26rem;
+}
+.header a.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.13rem;
+}
+.header .shop-detail {
+  width: 7.2rem;
+  margin-left: 0.26rem;
+}
+.header .shop-detail h2 {
+  color: #cc0000;
+  font-size: 0.46rem;
+  line-height: 0.5rem;
+  margin-bottom: 0.22rem;
+}
+.header .shop-detail p {
+  font-size: 0.32rem;
+  color: #666666;
+  line-height: 0.45rem;
+}
+.header .shop-detail p span {
+  font-size: 0.32rem;
+  color: #666666;
+}
+.header .shop-detail p span.person-value {
+  margin-left: 0.4rem;
+}
+.states {
+  padding: 0.26rem;
+  background: #fff;
+  margin-top: 0.21rem;
+}
+.states h2 {
+  font-size: 0.48rem;
+  color: #333333;
+  text-align: center;
+  line-height: 0.53rem;
+  margin-top: 0.2rem;
+}
+.states .states-detail {
+  margin-top: 0.3rem;
+  height: 1.36rem;
+}
+.states .states-detail div {
+  width: 4rem;
+  display: inline-block;
+  background: #cc0000;
+  border-radius: 0.26rem;
+  text-align: center;
+}
+.states .states-detail div p:nth-of-type(1) {
+  height: 0.68rem;
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 0.78rem;
+}
+.states .states-detail div p:nth-of-type(2) {
+  height: 0.68rem;
+  color: #fff;
+  font-size: 0.48rem;
+  line-height: 0.68rem;
+}
+.states .states-detail div:nth-of-type(1) {
+  margin: 0 0.96rem 0 0.2rem;
+}
+.performance-summary {
+  padding: 0 0.26rem 0.8rem 0.26rem;
+  background: #fff;
+  margin-top: 0.21rem;
+}
+.performance-summary h2 {
+  position: relative;
+  padding: 0.32rem 0 0 0.18rem;
+  line-height: 0.8rem;
+  font-size: 0.48rem;
+  color: #333;
+}
+.performance-summary h2 a {
+  position: absolute;
+  right: 0;
+  top: 0.32rem;
+  padding: 0 0.26rem;
+  font-size: 0.32rem;
+  background: #0099ff;
+  color: #fff;
+  border-radius: 0.16rem;
+}
+.performance-summary .data-detail {
+  margin-top: 0.56rem;
+  padding: 0 0.16rem;
+}
+.performance-summary .data-detail .item-box {
+  width: 4.26rem;
+  height: 5.94rem;
+  border: 1px solid #0099ff;
+  border-radius: 0.13rem;
+}
+.performance-summary .data-detail .item-box h3 {
+  color: #666;
+  font-size: 0.29rem;
+  padding-left: 0.21rem;
+  line-height: 0.58rem;
+}
+.performance-summary .data-detail .item-box .box {
+  position: relative;
+  text-align: center;
+  height: 1.7rem;
+  line-height: 0.66rem;
+  margin-top: 0.13rem;
+}
+.performance-summary .data-detail .item-box .box p:first-of-type {
+  color: #0099ff;
+  font-size: 0.29rem;
+}
+.performance-summary .data-detail .item-box .box p:nth-of-type(2) {
+  color: #666;
+  font-size: 0.34rem;
+}
+.performance-summary .data-detail .item-box .box p:nth-of-type(2) span {
+  color: #666;
+  font-size: 0.5rem;
+}
+.performance-summary .data-detail .item-box .box p:nth-of-type(3) {
+  position: absolute;
+  content: '';
+  bottom: 0.1rem;
+  left: 1.44rem;
+  width: 1.52rem;
+  height: 1px;
+  background: #999;
+}
+.performance-summary .data-detail .item-box .box p.times {
+  font-size: 0.32rem;
+}
+.help {
+  height: 2.53rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1.33rem;
+}
+.footer .onsettling {
+  width: 50%;
+  line-height: 0.66rem;
+  color: #fff;
+  background: #ccc;
+  text-align: center;
+}
+.footer .onsettling p {
+  color: #fff;
+}
+.footer .apply-settle {
+  width: 50%;
+  line-height: 1.33rem;
+  text-align: center;
+  color: #fff;
+  background: #cc0000;
+}
